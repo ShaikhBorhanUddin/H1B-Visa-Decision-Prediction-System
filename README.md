@@ -71,6 +71,9 @@ The [Dataset](https://www.kaggle.com/datasets/zongaobian/h1b-lca-disclosure-data
 
 [Up to date SOC](https://www.onetonline.org/find/all) 
 
+A [second H1B dataset](https://www.kaggle.com/datasets/kanishk307/h1b-applications-dataset-from-2015-to-2019/data) of 2015-2019 records was initially also cosidered. However, combining the 2015–2019 H1B dataset with the 2020–2024 dataset would increase the total number of records, it may reduce overall data consistency and model reliability. The older dataset lacks several important petition-type features such as NEW_EMPLOYMENT, CHANGE_EMPLOYER, AMENDED_PETITION, and NEW_CONCURRENT_EMPLOYMENT, which are highly relevant for employer-side H1B decision support. Merging both datasets would therefore introduce large amounts of structurally missing data and potentially distort model learning. In addition, the SOC occupation classification system changed around 2018–2019, meaning older occupation codes may not align properly with newer records. The H1B policy environment, labor market conditions, and visa scrutiny standards also changed significantly between 2015 and 2024, making the older data less representative of the current sponsorship landscape. Since the 2020–2024 dataset already contains approximately 3.5 million records with richer and more modern features, it is sufficient for building a scalable, deployment-ready machine learning model without introducing schema inconsistencies and temporal drift from older data.
+
+
 ## Folder structure 
 
 ```bash
