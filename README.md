@@ -65,6 +65,8 @@ The H-1B visa process is highly selective, time-consuming, and financially expen
 ## Dataset 
 The [Dataset](https://www.kaggle.com/datasets/zongaobian/h1b-lca-disclosure-data-2020-2024) is sourced from Kaggle. It provides a comprehensive record of Labor Condition Application (LCA) disclosures for H1B visa petitions filed with the U.S. Department of Labor (DOL) from 2020 to 2024. The H1B visa is a non-immigrant visa that allows U.S. companies to employ foreign workers in specialty occupations requiring theoretical or technical expertise. These roles typically include fields such as IT, engineering, finance, healthcare, and more. The H1B program is critical for addressing skill gaps in the U.S. workforce and supporting economic growth. 
 
+More recent [data](https://www.kaggle.com/datasets/saurabhbadole/u-s-immigration-and-wage-disclosure-data-updated) of 2025 (upto June) was also considered. 
+
 [SOC Code](https://www.bls.gov/oes/2023/may/oes_stru.htm) 
 
 [NAICS](https://www.census.gov/naics/) 
